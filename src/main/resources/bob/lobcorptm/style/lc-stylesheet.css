@@ -1,0 +1,107 @@
+@font-face {
+    fonr-family: Norwester;
+    src: url('fonts/norwester.otf');
+}
+
+.root {
+    background-color: #131311;
+    primary-yellow: #ffffa1;
+    primary-red: #fc3a3a;
+    primary-blue: #2ebda5;
+
+    -fx-font-family: 'Norwester';
+    -fx-background-color: background-color;
+}
+
+#pomodoro-bg {
+    -fx-border-color: primary-yellow;
+    -fx-border-style: solid;
+    -fx-border-width: 6px;
+}
+#pomodoro-panel {
+    -fx-background-image: url('images/ui_pomodoroPanel.png');
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+}
+
+.label-1 {
+    -fx-text-fill: primary-yellow;
+    -fx-font-size: 48px;
+}
+.inverted-label-1 {
+    -fx-background-color: primary-yellow;
+    -fx-text-fill: background-color;
+    -fx-font-size: 48px;
+}
+#title-label {
+    -fx-border-color: primary-yellow;
+    -fx-border-width: 0px 30px 12px 0px;
+}
+#pomodoro-label {
+    -fx-font-size: 120px;
+}
+.progress-bar {
+   -fx-background-color: background-color;
+   -fx-border-color: primary-yellow;
+   -fx-border-width: 8px;
+   -fx-accent: primary-yellow;
+   -fx-control-inner-background: background-color;
+}
+
+.button-1 {
+    -fx-shape: "M 100 250 L 700 200 L 650 450 L 100 400 L 100 250";
+    -fx-background-color: primary-yellow;
+    -fx-border-color: primary-yellow;
+    -fx-text-fill: background-color;
+    -fx-font-size: 24px;
+}
+
+.button-1:hover {
+    -fx-border-color: primary-yellow;
+    -fx-border-width: 5px;
+    -fx-background-color: primary-yellow;
+    -fx-text-fill: primary-red;
+    -fx-font-size: 28px;
+    -fx-translate-x: -2px;
+    -fx-translate-y: -2px;
+}
+
+.button-1:pressed {
+    -fx-border-width: 3px;
+    -fx-background-color: primary-yellow;
+    -fx-text-fill: primary-red;
+    -fx-font-size: 28px;
+    -fx-translate-x: 1px;
+    -fx-translate-y: 1px;
+}
+
+.button-1:selected {
+    -fx-border-color: primary-yellow;
+    -fx-border-width: 5px;
+    -fx-background-color: primary-red;
+    -fx-text-fill: primary-yellow;
+    -fx-font-size: 28px;
+    -fx-translate-x: -2px;
+    -fx-translate-y: -2px;
+}
+
+#start-button {
+    -fx-background-color: primary-yellow;
+    -fx-border-color: primary-yellow;
+    -fx-text-fill: background-color;
+    -fx-border-width: 0px 20px 0px 0px;
+    -fx-font-size: 48px;
+}
+#start-button:hover {
+    -fx-text-fill: primary-red;
+    -fx-border-width: 4px 24px 0px 0px;
+    -fx-translate-x: -5px;
+    -fx-font-size: 49px;
+}
+
+#start-button:pressed {
+    -fx-text-fill: primary-red;
+    -fx-border-width: 2px 24px 0px 0px;
+    -fx-translate-x: 5px;
+    -fx-font-size: 48px;
+}
